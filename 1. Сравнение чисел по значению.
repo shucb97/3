@@ -1,1 +1,17 @@
-
+#include <stdio.h>            
+int main()
+{
+  float x,y;
+ printf("Введите первое число");
+scanf("%f", &x);
+ printf("Введите второе число");
+scanf("%f", &y);
+if (x>y) {
+    printf("Больше");
+} else if (x<y) {
+    printf("Меньше");
+} else {
+    printf("Эти числа равны");
+}
+return 0;
+}
